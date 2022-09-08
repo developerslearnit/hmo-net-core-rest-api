@@ -1,0 +1,51 @@
+
+username: avon
+Password:Ch@ngeP@$$N0W
+
+
+"ToshfaConnection": "Data Source=154.113.7.82;Initial Catalog=AVONHMOUAT;User ID=Guestuser;Password=P@ssw0rd123;",
+"AvonConnection": "Data Source=tcp:avonhmoserver.database.windows.net,1433;Initial Catalog=AvonHmoStore;User ID=avRecDBUsr;Password=L3TCh@n93P@$$;"
+
+
+"DBConnections": {
+    "ToshfaConnection": "Data Source=154.113.7.82;Initial Catalog=AVONHMOUAT_New;User ID=Guestuser;Password=P@ssw0rd123;",
+    "AvonConnection": "Data Source=tcp:avon-db-store.database.windows.net,1433;Initial Catalog=AvonHmoStore;User ID=avRecDBUsr;Password=L3TCh@n93P@$$;"
+
+  },
+
+  "Azure": {
+    "AzureStorageContainer": "avon",
+    "AzureBlobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=avonazstorage;AccountKey=g+9JU2IKPdHiDj3wnz3lWNdJGvhWziqGVioz+lpafUKmt8bFASnSQwsjfdNntKY1cMit4IarvHY9jzUjFGlJqg==;EndpointSuffix=core.windows.net"
+  }
+
+
+  "ToshfaApiBaseUri": "http://154.113.7.82/AvonHMOGlobalAPI/api/",
+
+
+
+
+
+
+
+
+
+ /// <summary>
+        /// This endpoint creates a new user login account
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     
+        ///     {
+        ///        "userName": "string",
+        ///         "firstName": "string",
+        ///         "lastName": "string",
+        ///         "email": "string",
+        ///         "mobilePhone": "string",
+        ///         "password": "string",
+        ///         "companyId": "string"
+        ///     }
+        ///
+        /// </remarks>
+        /// <returns>A newly created TodoItem</returns>
+        /// <response code="200">Returns list of posts</response>
